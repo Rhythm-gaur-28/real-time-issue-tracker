@@ -1,29 +1,6 @@
 {
   "issues": [
     {
-      "id": "1759897255629",
-      "title": "first issue",
-      "description": "this is the description of first issue",
-      "status": "closed",
-      "creator": "rhythm",
-      "createdAt": "2025-10-08T04:20:55.629Z",
-      "comments": [
-        {
-          "id": "1759897343710",
-          "author": "rohan",
-          "text": "this is a comment from rohan on first issue",
-          "createdAt": "2025-10-08T04:22:23.710Z"
-        },
-        {
-          "id": "1759897376548",
-          "author": "rhythm",
-          "text": "this issue has been closed by rhythm",
-          "createdAt": "2025-10-08T04:22:56.548Z"
-        }
-      ],
-      "updatedAt": "2025-10-08T04:22:40.504Z"
-    },
-    {
       "id": "1759897397050",
       "title": "second issue",
       "description": "this is the description of second issue",
@@ -32,6 +9,15 @@
       "createdAt": "2025-10-08T04:23:17.050Z",
       "comments": [],
       "updatedAt": "2025-10-08T04:24:50.515Z"
+    },
+    {
+      "id": "1759898385591",
+      "title": "third issue",
+      "description": "this is the description of third issue",
+      "status": "open",
+      "creator": "rhythm",
+      "createdAt": "2025-10-08T04:39:45.591Z",
+      "comments": []
     }
   ]
 }
