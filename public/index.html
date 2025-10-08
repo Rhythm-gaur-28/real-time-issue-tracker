@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Issue Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Section -->
+        <div id="loginSection" class="section">
+            <div class="login-card">
+                <h1>Issue Tracker</h1>
+                <p>Enter your username to continue</p>
+                <input type="text" id="usernameInput" placeholder="Enter username" />
+                <button id="joinBtn">Join</button>
+            </div>
+        </div>
+
+        <!-- Main App Section -->
+        <div id="appSection" class="section hidden">
+            <header>
+                <h1>🎯 Real-Time Issue Tracker</h1>
+                <div class="user-info">
+                    <span id="currentUser"></span>
+                    <div class="status-indicator"></div>
+                </div>
+            </header>
+
+            <div class="main-content">
+                <!-- Create Issue Form -->
+                <div class="create-issue-section">
+                    <h2>Create New Issue</h2>
+                    <div class="form-group">
+                        <input type="text" id="issueTitle" placeholder="Issue title" />
+                        <textarea id="issueDescription" placeholder="Describe the issue..." rows="3"></textarea>
+                        <button id="createIssueBtn">Create Issue</button>
+                    </div>
+                </div>
+
+                <!-- Issues List -->
+                <div class="issues-section">
+                    <div class="section-header">
+                        <h2>All Issues</h2>
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" data-filter="all">All</button>
+                            <button class="filter-btn" data-filter="open">Open</button>
+                            <button class="filter-btn" data-filter="on-going">On-going</button>
+                            <button class="filter-btn" data-filter="closed">Closed</button>
+                        </div>
+                    </div>
+                    <div id="issuesList"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notifications -->
+        <div id="notifications"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
