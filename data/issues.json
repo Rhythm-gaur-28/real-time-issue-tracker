@@ -14,10 +14,11 @@
       "id": "1759899932894",
       "title": "fifth issue",
       "description": "description of fifth",
-      "status": "open",
+      "status": "on-going",
       "creator": "rhythm",
       "createdAt": "2025-10-08T05:05:32.907Z",
-      "comments": []
+      "comments": [],
+      "updatedAt": "2025-10-08T05:05:47.614Z"
     }
   ]
 }
