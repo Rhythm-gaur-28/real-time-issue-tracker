@@ -24,10 +24,11 @@
       "id": "1759900001547",
       "title": "seventh issue",
       "description": "description of 7",
-      "status": "open",
+      "status": "on-going",
       "creator": "rhythm",
       "createdAt": "2025-10-08T05:06:41.547Z",
-      "comments": []
+      "comments": [],
+      "updatedAt": "2025-10-08T05:06:59.026Z"
     }
   ]
 }
