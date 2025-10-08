@@ -19,6 +19,15 @@
       "createdAt": "2025-10-08T05:05:32.907Z",
       "comments": [],
       "updatedAt": "2025-10-08T05:05:47.614Z"
+    },
+    {
+      "id": "1759900001547",
+      "title": "seventh issue",
+      "description": "description of 7",
+      "status": "open",
+      "creator": "rhythm",
+      "createdAt": "2025-10-08T05:06:41.547Z",
+      "comments": []
     }
   ]
 }
